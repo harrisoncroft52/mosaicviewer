@@ -29,8 +29,8 @@ Press `F1` in the app for the full guide and every shortcut.
 ## Features
 
 - **Placing images**: automatic from SEM stage data, or by hand with Nudge. Layers, transparency, search and sorting by magnification. (Figure shows images immediately after import)
-![Freshly imported](<Screenshot 2026-10-27 115753.png>)
-![Freshly imported (zoomed)](before.png)
+![Freshly imported](docs/Screenshot 2026-10-27 115753.png)
+![Freshly imported (zoomed)](docs/before.png)
 - **Auto-align**: matches every overlapping pair and solves all positions together.
   - High-magnification images are trusted most.
   - Each lens mode gets its own offset.
@@ -46,7 +46,7 @@ Press `F1` in the app for the full guide and every shortcut.
 - **Projects**: the home screen lists recent projects, and AutoSave keeps a recovery copy if the app closes unexpectedly. Layouts can include the images or link to them.
 - **Export**: PNG of the view, the whole mosaic or just the selection, or copy the view straight into a report.
 - Light and dark mode, and more than 80 keyboard shortcuts.
-![Annotation](annotation.png)
+![Annotation](docs/annotation.png)
 
 ## Save files
 
