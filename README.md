@@ -29,13 +29,13 @@ Press `F1` in the app for the full guide and every shortcut.
 ## Features
 
 - **Placing images**: automatic from SEM stage data, or by hand with Nudge. Layers, transparency, search and sorting by magnification. (Figure shows images immediately after import)
-![Freshly imported](docs/Screenshot 2026-10-27 115753.png)
 ![Freshly imported (zoomed)](docs/before.png)
+
 - **Auto-align**: matches every overlapping pair and solves all positions together.
   - High-magnification images are trusted most.
   - Each lens mode gets its own offset.
   - It corrects low-magnification frames whose pixel size is off.
-
+![Autoplaced](docs/after_zoomed.png)
 - **Measuring**: distances, areas with perimeter, and angles.
 - **Drawing**: text, arrows, lines, circles, rectangles and a freehand pen. Drawings stay pinned to the features they mark.
 - **Image tab**:
