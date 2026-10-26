@@ -35,6 +35,7 @@ Press `F1` in the app for the full guide and every shortcut.
   - High-magnification images are trusted most.
   - Each lens mode gets its own offset.
   - It corrects low-magnification frames whose pixel size is off.
+![Autoplaced](docs/before_zoomed.png)
 ![Autoplaced](docs/after_zoomed.png)
 - **Measuring**: distances, areas with perimeter, and angles.
 - **Drawing**: text, arrows, lines, circles, rectangles and a freehand pen. Drawings stay pinned to the features they mark.
