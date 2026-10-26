@@ -4,7 +4,8 @@ Mosaic Viewer turns many overlapping images into one map you can zoom, measure a
 
 It was built for SEM fracture surfaces. If an SEM image comes with its `.txt` file, the app reads the scale and stage position and puts the image in place for you. Any other image with a scale bar (microscope images, photos) works too: you calibrate it and place it by hand.
 
-![Mosaic Viewer](docs/screenshot.png)
+![Mosaic Viewer](docs/mosaic.png)
+
 
 ## Download
 
@@ -27,13 +28,21 @@ Press `F1` in the app for the full guide and every shortcut.
 
 ## Features
 
-- **Placing images**: automatic from SEM stage data, or by hand with Nudge. Layers, transparency, search and sorting by magnification.
+- **Placing images**: automatic from SEM stage data, or by hand with Nudge. Layers, transparency, search and sorting by magnification. (Figure shows images immediately after import)
+
+![Freshly imported (zoomed)](before.png)
 - **Auto-align**: matches every overlapping pair and solves all positions together.
   - High-magnification images are trusted most.
   - Each lens mode gets its own offset.
   - It corrects low-magnification frames whose pixel size is off.
+
+![alt text](after_zoomed.png)
+
+
 - **Measuring**: distances, areas with perimeter, and angles.
 - **Drawing**: text, arrows, lines, circles, rectangles and a freehand pen. Drawings stay pinned to the features they mark.
+
+![Annotation](annotation.png)
 - **Image tab**:
   - brightness and contrast, plus one-click "Match images" to even out frames
   - opacity, blend modes, and a Difference mode for checking alignment
@@ -42,6 +51,7 @@ Press `F1` in the app for the full guide and every shortcut.
 - **Projects**: the home screen lists recent projects, and AutoSave keeps a recovery copy if the app closes unexpectedly. Layouts can include the images or link to them.
 - **Export**: PNG of the view, the whole mosaic or just the selection, or copy the view straight into a report.
 - Light and dark mode, and more than 80 keyboard shortcuts.
+
 
 ## Save files
 
